@@ -1,0 +1,176 @@
+#navbar{
+    background-color: #731c28;
+position: fixed;
+bottom: 0;
+left: 0;
+width: 100%;
+padding: 15px;
+font-size: 30px;
+color: white;
+display: flex;
+justify-content: space-around;
+z-index: 1000;
+}
+#logo{
+    font-size: 30px;
+    color: #e8b19d;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+#profile{
+    color: white;
+}
+button{
+    background-color: #be6674;
+}
+#findyourtaste {
+    color: #e8b19d;
+}
+#body{
+    background-color: #f3e0d1;
+    padding: 200px;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: center;
+    background-image: url("background.jpeg");
+    background-size: cover;
+}
+ h1{
+    font-size: 70px;
+    color: #731c28;
+    top: 5px;
+    left: 600px;
+    position: absolute;
+    margin-bottom: 0px;
+}
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Flexbox container */
+.container {
+    display: flex;
+    justify-content: space-between;  /* Spaces evenly between boxes */
+    align-items: center;  /* Centers items vertically */
+    width: 80%;
+    margin: 65px auto;
+    padding: 20px;
+    border-radius: 10px;
+justify-content: space-around;}
+
+/* Individual boxes */
+.box {
+  /* Reset default styles */
+* {
+    margin: 0;
+    padding-top: 0;
+    box-sizing: border-box;
+}
+
+/* Flexbox container */
+.container {
+    display: flex;
+    justify-content: space-evenly;  /* Spaces boxes evenly */
+    align-items: center;  /* Centers items vertically */
+    width: 80%;
+    margin: 50px auto;
+    padding-top: 0px;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Individual flex boxes */
+.box {
+    width: 25%;  /* Each box takes 25% of container */
+    height: 150px;
+    background-color: #ff6b6b;
+    color: white;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;  /* Stacks boxes vertically on smaller screens */
+        align-items: center;
+    }
+    .box {
+        width: 80%;
+        margin-bottom: 10px;
+    }
+}
+}
+/* Different colors for each box */
+.box1 { background-color: #ff6b6b;
+background-image: url("cake girl.jpg");
+background-size: cover;
+height: 400px;
+width: 400px;} 
+.box2 { background-color: #6bcbff; background-image: url("donut.jpeg");
+    background-size: cover;
+    height: 400px;
+    width: 400px;}
+    
+.box3 { background-color: #6bff95;
+background-image: url("2 donut.jpeg");
+background-size: cover;
+height: 400px;
+width: 400px;}
+
+p{
+    font-size: 35px;
+    color: #0e0c0c;
+    font-style: italic;
+
+}
+
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: #741c28;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 50px;
+    background-color: #bb8c94;
+}
+
+.image-item {
+    text-align: center;
+}
+
+.image-item img {
+    width: 400px;
+    height: 500px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.image-item img:hover {
+    transform: scale(1.05);
+}
+
+.image-item p {
+    font-size: 18px;
+    margin-top: 10px;
+    color: #333;
+}

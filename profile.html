@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Profile</title>
+    
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f3e0d1;
+            background-image: url(choco\ background.jpeg);
+            background-size: cover;
+            margin: 0;
+            padding: 0;
+        }
+
+        .profile-container {
+            width: 80%;
+            max-width: 500px;
+            background-color: rgba(255, 255, 255, 0.9);
+            margin: 50px auto;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .profile-pic {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 4px solid #741c28;
+        }
+
+        h2 {
+            color: #741c28;
+            font-size: 28px;
+        }
+
+        p {
+            font-size: 18px;
+            color: #333;
+            margin: 8px 0;
+        }
+
+        .profile-info {
+            text-align: left;
+            margin-top: 20px;
+        }
+
+        .profile-info p {
+            padding: 10px;
+            background: #fff;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .edit-btn {
+            display: block;
+            width: 100%;
+            padding: 12px;
+            background-color: #741c28;
+            color: #fff;
+            font-size: 18px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 20px;
+            transition: 0.3s;
+        }
+
+        .edit-btn:hover {
+            background-color: #be6674;
+        }
+
+        .nav-links {
+            margin-top: 30px;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: #741c28;
+            font-size: 18px;
+            padding: 10px 20px;
+            display: inline-block;
+            border-radius: 5px;
+            background-color: #fff;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            margin: 5px;
+        }
+
+        .nav-links a:hover {
+            background-color: #be6674;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="profile-container">
+        <img src="profile-pic.jpeg" alt="User Profile Picture" class="profile-pic">
+        <h2>John Doe</h2>
+        <p>Chocolate Lover 🍫</p>
+
+        <div class="profile-info">
+            <p><strong>Email:</strong> johndoe@example.com</p>
+            <p><strong>Phone:</strong> +91 9876543210</p>
+            <p><strong>Address:</strong> 123, Sweet Street, Chocolate City</p>
+        </div>
+
+        <button class="edit-btn">Edit Profile</button>
+
+        <div class="nav-links">
+            <a href="index.html.html">🏠 Home</a>
+            <a href="orders.html">📦 My Orders</a>
+            <a href="logout.html">🚪 Logout</a>
+        </div>
+    </div>
+
+</body>
+</html>
